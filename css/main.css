@@ -1,0 +1,42 @@
+body {
+  background: #149063; }
+
+table, td {
+  border: 1px solid #888;
+  border-collapse: collapse; }
+
+td {
+  padding: 3px; }
+
+.content {
+  background: #eee;
+  max-width: 600px;
+  margin: 0 auto; }
+
+.preview {
+  padding: 10px; }
+  .preview img {
+    max-width: 580px; }
+
+.tabs {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #acd9b3; }
+  .tabs li {
+    display: inline-block; }
+    .tabs li.active {
+      background: #459651; }
+      .tabs li.active a {
+        color: white; }
+        .tabs li.active a:hover {
+          background: #459651;
+          cursor: default; }
+  .tabs a {
+    display: block;
+    padding: 5px 20px;
+    color: #555;
+    font-weight: bold;
+    text-decoration: none; }
+    .tabs a:hover {
+      background: #95ce9d; }
